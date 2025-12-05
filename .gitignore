@@ -1,0 +1,35 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+appsettings.Development.json
+
+# Angular
+node_modules/
+dist/
+.angular/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Images
+ShopAPI/wwwroot/images/*.png
+ShopAPI/wwwroot/images/*.jpg
+ShopAPI/wwwroot/images/*.jpeg
+!ShopAPI/wwwroot/images/.gitkeep
+
+# Database
+ShopAPI/*.db
+ShopAPI/*.db-shm
+ShopAPI/*.db-wal
+
